@@ -18,7 +18,7 @@ function Router() {
       <Switch>
         <Route path="/" component={() => <Home filter="all" />} />
         <Route path="/drafts" component={() => <Home filter="drafts" />} />
-        <Route path="/news" component={News} />
+        {/* <Route path="/news" component={News} /> */}
         <Route path="/new" component={PostEdit} />
         <Route path="/post/:id" component={PostView} />
         <Route path="/post/:id/edit" component={PostEdit} />

@@ -82,14 +82,14 @@ function AppSidebar({ currentPath }: { currentPath: string }) {
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              <SidebarMenuItem>
+              {/* <SidebarMenuItem>
                 <SidebarMenuButton asChild isActive={currentPath === "/news"} className="rounded-xl px-3 py-5 transition-all">
                   <Link href="/news">
                     <Newspaper className="h-4 w-4 opacity-70" />
                     <span className="font-medium">Free News</span>
                   </Link>
                 </SidebarMenuButton>
-              </SidebarMenuItem>
+              </SidebarMenuItem> */}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
